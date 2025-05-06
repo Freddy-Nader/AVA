@@ -1,18 +1,15 @@
-
-package calculadora_estadistica;
-
-//Clse estadísticos.
+// Clase estadísticos
 
 import java.util.ArrayList;
 
-public class Estadisticos {
+public class EstadisticosAB {
     
     //Atributos
     private int numDatos;
     private int[] datos;
     
     //Constructor.
-    public Estadisticos(int[] arr, int dim) {
+    public EstadisticosAB(int[] arr, int dim) {
         
         numDatos = dim;
         
@@ -26,7 +23,7 @@ public class Estadisticos {
     }
     
     //Agregamos esta nueva clase.
-    public Estadisticos(ArrayList<Integer> arr) {
+    public EstadisticosAB(ArrayList<Integer> arr) {
         numDatos = arr.size();
         
         datos = new int[numDatos];
