@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2seproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+            <name>AVA</name>
+            <source-roots>
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+        </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>aparición</word>
+            <word>apiladas</word>
+            <word>bigote</word>
+            <word>burbuja</word>
+            <word>caja</word>
+            <word>cambiar</word>
+            <word>columna</word>
+            <word>columnas</word>
+            <word>círculo</word>
+            <word>datos</word>
+            <word>desde</word>
+            <word>desviación</word>
+            <word>Diagrama</word>
+            <word>dispersión</word>
+            <word>donde</word>
+            <word>ejes</word>
+            <word>elegidas</word>
+            <word>elige</word>
+            <word>estándar</word>
+            <word>frecuencia</word>
+            <word>frecuencias</word>
+            <word>Gráfico</word>
+            <word>hasta</word>
+            <word>las</word>
+            <word>los</word>
+            <word>línea</word>
+            <word>mostrando</word>
+            <word>mostrar</word>
+            <word>muestra</word>
+            <word>orden</word>
+            <word>Puede</word>
+            <word>que</word>
+            <word>quiere</word>
+            <word>secuencia</word>
+            <word>señala</word>
+            <word>su</word>
+            <word>tercer</word>
+            <word>un</word>
+            <word>una</word>
+            <word>unen</word>
+            <word>usuario</word>
+            <word>ver</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>
