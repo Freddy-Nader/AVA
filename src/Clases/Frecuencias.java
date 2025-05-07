@@ -10,6 +10,6 @@ package Clases;
  * @author Alfredo Nader
  */
 
-public class Frecuencias implements Graficos {
+public class Frecuencias extends Graficos {
 
 }

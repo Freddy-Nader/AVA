@@ -10,6 +10,6 @@ package Clases;
  * @author Alfredo Nader
  */
 
-public class CajaBigote implements Graficos {
+public class CajaBigote extends Graficos {
 
 }

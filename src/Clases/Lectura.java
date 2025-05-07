@@ -15,7 +15,7 @@ import java.util.List;
  * @author Alfredo Nader
  */
 
-public class Lectura implements Graficos {
+public class Lectura {
      public static void main(String[] args) {
         List<Integer> col1 = new ArrayList<>();
         List<Integer> col2 = new ArrayList<>();

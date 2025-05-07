@@ -11,6 +11,6 @@ package Clases;
  * @author Alfredo Nader
  */
 
-public class Dispersion implements Graficos {
+public class Dispersion extends Graficos {
 
 }

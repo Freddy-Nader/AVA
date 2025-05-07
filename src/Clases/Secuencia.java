@@ -11,6 +11,6 @@ package Clases;
  * @author Alfredo Nader
  */
 
-public class Secuencia implements Graficos {
+public class Secuencia extends Graficos {
 
 }
