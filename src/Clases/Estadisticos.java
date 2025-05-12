@@ -17,8 +17,8 @@ public class Estadisticos {
     private final int[] datos;
 
     /**
-     * Constructor de la clase {@code Estadisticos} que recibe un array de enteros.
-     * Inicializa el número de datos y copia el array proporcionado.
+     * Constructor de la clase {@code Estadisticos} que recibe un array de 
+     * enteros. Inicializa el número de datos y copia el array proporcionado.
      * Los datos se ordenan automáticamente al instanciar la clase.
      *
      * @param arr El array de enteros con los datos para calcular las estadísticas.
@@ -37,9 +37,9 @@ public class Estadisticos {
     /**
      * Constructor de la clase {@code Estadisticos} que recibe un array de enteros
      * y una dimensión. Inicializa el número de datos tomando el mínimo entre 
-     * la longitud del array y la dimensión proporcionada, y copia los 
-     * primeros elementos del array. Los datos se ordenan automáticamente al 
-     * instanciar la clase.
+     * la longitud del array y la dimensión proporcionada, y copia los primeros 
+     * elementos del array. Los datos se ordenan automáticamente al instanciar 
+     * la clase.
      * 
      * @param arr El array de enteros con los datos.
      * @param dim La dimensión máxima de los datos a considerar.
@@ -57,8 +57,8 @@ public class Estadisticos {
 
     /**
      * Constructor de la clase {@code Estadisticos} que recibe una lista de enteros 
-     * ({@code ArrayList}). Inicializa el número de datos y copia los elementos de 
-     * la lista proporcionada. Los datos se ordenan automáticamente al 
+     * ({@code ArrayList}). Inicializa el número de datos y copia los elementos
+     * de la lista proporcionada. Los datos se ordenan automáticamente al 
      * instanciar la clase.
      * 
      * @param arr La lista de enteros con los datos.
@@ -76,8 +76,9 @@ public class Estadisticos {
     }
 
     /**
-     * Ordena internamente el array de datos utilizando el método {@code sort()} 
-     * de la clase {@code Arrays}. Este método es privado y se llama durante la 
+     * Ordena internamente el array de datos utilizando el método {@link #sort()} 
+     * de la clase {@link #java.util.Arrays}. Este método es privado y se 
+     * llama durante la 
      * inicialización de la instancia.
      */
     private void ordenar() {
@@ -86,7 +87,8 @@ public class Estadisticos {
 
     /**
      * Calcula la suma de todos los datos en el array.
-     * Este método es privado y se utiliza internamente para calcular otras estadísticas.
+     * Este método es privado y se utiliza internamente para calcular otras 
+     * estadísticas.
      *
      * @return La suma de todos los datos.
      */
@@ -244,6 +246,7 @@ public class Estadisticos {
      * diferentes unidades o medias.
      *
      * @return El coeficiente de variación de los datos.
+     * @see #desvStd()
      */
     public double coefVar() {
         return desvStd() / media();

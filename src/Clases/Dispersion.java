@@ -12,5 +12,8 @@ package Clases;
  */
 
 public class Dispersion extends Graficos {
-
+    public Dispersion() {
+        Graficos g = new Graficos();
+        g.margin_L = 4;
+    }
 }
